@@ -19,13 +19,13 @@ class Compliment extends React.Component{
     }
 
     Adjective(){
-        const things = ["amazing", "great", "kind", "awesome", "beautiful", "lovely", "brave", "cool", "spectacular", "fantastic", "fabulous", "brilliant", "exceptional", "marvellous", "terrific", "outstanding"];
+        const things = ["amazing", "great", "kind", "awesome", "beautiful", "lovely", "brave", "cool", "spectacular", "fantastic", "fabulous", "brilliant", "exceptional", "marvellous", "terrific", "outstanding", "cute", "epic"];
         const randomThing = Math.floor(Math.random() * things.length);
         return things[randomThing];
     }
     
     Adjective2(){
-        const things = ["most amazing", "greatest", "kindest", "most awesome", "most beautiful", "loveliest", "bravest", "coolest", "nicest", "best", "most fantastic", "most fabulous", "most btilliant", "most exceptional"];
+        const things = ["most amazing", "greatest", "kindest", "most awesome", "most beautiful", "loveliest", "bravest", "coolest", "nicest", "best", "most fantastic", "most fabulous", "most brilliant", "most exceptional", "cutest", "most epic"];
         const randomThing = Math.floor(Math.random() * things.length);
         return things[randomThing];
     }
@@ -55,7 +55,7 @@ class Compliment extends React.Component{
     }
     
     Generator(){
-        const starts = ["You ", "I love ", "How ", "Thank you ", "Your "];
+        const starts = ["You ", "I love ", "How ", "Thank you ", "You're "];
         const startsnum = Math.floor(Math.random() * starts.length);
     
         let middle1 = "";
@@ -123,20 +123,20 @@ class Compliment extends React.Component{
     
         if (middlenum === 1){
             if(middle2 === "have "){
-                end1 = `the ${this.Adjective2()} ${this.Part()}`;
-                end2 = `so much ${this.Thing()}`;
-                end3 = `the ${this.Adjective2()} ${this.Thing()}`;
-                end4 = `the ${this.Adjective2()} ${this.Part()} in the ${this.Place()}`;
+                end1 = `the ${this.Adjective2()} ${this.Part()}!`;
+                end2 = `so much ${this.Thing()}!`;
+                end3 = `the ${this.Adjective2()} ${this.Thing()}!`;
+                end4 = `the ${this.Adjective2()} ${this.Part()} in the ${this.Place()}!`;
             }else if(middle2 === "you "){
-                end1 = "sooooo much";
-                end2 = `as much as the ${this.Place()}`;
-                end3 = "more then anything";
+                end1 = "sooooo much!";
+                end2 = `as much as the ${this.Place()}!`;
+                end3 = "more then anything!";
                 end4 = "";
             }else if(middle2 === "can you "){
-                end1 = `be so ${this.Adjective()}`;
-                end2 = `have the ${this.Adjective2()} ${this.Part()}`;
-                end3 = `be the ${this.Adjective2()}`;
-                end4 = `be the most ${this.Adjective()} in the ${this.Place()}`;
+                end1 = `be so ${this.Adjective()}!`;
+                end2 = `have the ${this.Adjective2()} ${this.Part()}!`;
+                end3 = `be the ${this.Adjective2()}!`;
+                end4 = `be the most ${this.Adjective()} in the ${this.Place()}!`;
             }else if(middle2 === "and your "){
                 end1 = `${this.Adjective()} ${this.Part()}!`;
                 end2 = `never ending ${this.Thing()}!`;
