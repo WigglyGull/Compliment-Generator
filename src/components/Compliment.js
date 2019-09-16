@@ -167,7 +167,7 @@ class Compliment extends React.Component{
                 end1 = "so much!";
                 end2 = `for always being ${this.Adjective()}!`;
                 end3 = `for being the ${this.Adjective2()}!`;
-                end4 = `for having a ${this.Adjective()} ${this.Thing()}!`;
+                end4 = `for having an ${this.Adjective()} ${this.Thing()}!`;
             }else if(middle3 === "just "){
                 end1 = `that ${this.Adjective()}!`;
                 end2 = `the ${this.Adjective2()}!`;
