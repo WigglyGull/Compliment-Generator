@@ -29,13 +29,13 @@ body, html {
 .Compliment-Background{
     background-color: #fff;
     margin: 30px;
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 70px;
+    margin-left: 70px;
     padding: 5px;
 }
 
 .Compliment{
-    font-size: 50px;
+    font-size: 40px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -52,6 +52,24 @@ body, html {
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.Button:hover{
+    background: rgb(3, 128, 218);
+}
+
+.source{
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.twitter{
+    float: right;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
 }
 
 @media only screen and (max-width: 1040px) {

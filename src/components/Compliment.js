@@ -138,44 +138,44 @@ class Compliment extends React.Component{
                 end3 = `be the ${this.Adjective2()}`;
                 end4 = `be the most ${this.Adjective()} in the ${this.Place()}`;
             }else if(middle2 === "and your "){
-                end1 = `${this.Adjective()} ${this.Part()}`;
-                end2 = `never ending ${this.Thing()}`;
-                end3 = this.Thing();
-                end4 = `${this.Adjective()} ${this.Thing()}`;
+                end1 = `${this.Adjective()} ${this.Part()}!`;
+                end2 = `never ending ${this.Thing()}!`;
+                end3 = `${this.Thing()}!`;
+                end4 = `${this.Adjective()} ${this.Thing()}!`;
             }else if(middle2 === "so "){
-                end1 = `freakin ${this.Adjective()}`;
-                end2 = `${this.Adjective()}`;
-                end3 = `${this.Adjective()}, ${this.Bouns()}`;
-                end4 = `freakin ${this.Adjective()}, ${this.Bouns()}`;
+                end1 = `freakin ${this.Adjective()}!`;
+                end2 = `${this.Adjective()}!`;
+                end3 = `${this.Adjective()}, ${this.Bouns()}!`;
+                end4 = `freakin ${this.Adjective()}, ${this.Bouns()}!`;
             }
         }
     
         if (middlenum === 2){
             if(middle3 === "will "){
-                end1 = `do ${this.Adjective()} things`;
-                end2 = `be ${this.Adjective()} forever`;
-                end3 = `do so much for the ${this.Place()}`;
-                end4 = "have my love forever";
+                end1 = `do ${this.Adjective()} things!`;
+                end2 = `be ${this.Adjective()} forever!`;
+                end3 = `do so much for the ${this.Place()}!`;
+                end4 = "have my love forever!";
             }else if(middle3 === "the "){
-                end1 = `way your ${this.Part()} works `;
-                end2 = `way you look its so ${this.Adjective()}`;
-                end3 = `${this.Thing()} that is in you`;
-                end4 = `way your always the ${this.Adjective2()} in the ${this.Place()}`;
+                end1 = `way your ${this.Part()} works!`;
+                end2 = `way you look its so ${this.Adjective()}!`;
+                end3 = `${this.Thing()} that is in you!`;
+                end4 = `way your always the ${this.Adjective2()} in the ${this.Place()}!`;
             }else if(middle3 === "will you "){
-                end1 = `stay this ${this.Adjective()}`;
-                end2 = `always be so ${this.Adjective()}`;
-                end3 = `always be the ${this.Adjective2()}`;
-                end4 = `stay the ${this.Adjective2()}`;
+                end1 = `stay this ${this.Adjective()}!`;
+                end2 = `always be so ${this.Adjective()}!`;
+                end3 = `always be the ${this.Adjective2()}!`;
+                end4 = `stay the ${this.Adjective2()}!`;
             }else if(middle3 === " "){
-                end1 = "so much";
-                end2 = `for always being ${this.Adjective()}`;
-                end3 = `for being the ${this.Adjective2()}`;
-                end4 = `for having a ${this.Adjective()} ${this.Thing()}`;
+                end1 = "so much!";
+                end2 = `for always being ${this.Adjective()}!`;
+                end3 = `for being the ${this.Adjective2()}!`;
+                end4 = `for having a ${this.Adjective()} ${this.Thing()}!`;
             }else if(middle3 === "just "){
-                end1 = `that ${this.Adjective()}`;
-                end2 = `the ${this.Adjective2()}`;
-                end3 = `the ${this.Adjective2()} in the ${this.Place()}`;
-                end4 = `that ${this.Adjective()}, ${this.Bouns()}`;
+                end1 = `that ${this.Adjective()}!`;
+                end2 = `the ${this.Adjective2()}!`;
+                end3 = `the ${this.Adjective2()} in the ${this.Place()}!`;
+                end4 = `that ${this.Adjective()}, ${this.Bouns()}!`;
             }
         }
         const end = [end1, end2, end3, end4];
