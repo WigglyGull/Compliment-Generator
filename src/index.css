@@ -88,10 +88,4 @@ body, html {
     }
 }
 
-@media only screen and (min-width: 603px) {
-    body{
-        padding: 100px;
-    }
-}
-
 

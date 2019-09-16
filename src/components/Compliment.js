@@ -1,8 +1,5 @@
 import React from "react";
 
-
-
-
 class Compliment extends React.Component{
     constructor(){
         super()
